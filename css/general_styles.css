@@ -25,3 +25,15 @@ body {
   line-height: 1.2;
   overflow-x: hidden;
 }
+
+.hide-menu {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.show-navbar {
+  display: block;
+}

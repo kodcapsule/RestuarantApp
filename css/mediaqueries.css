@@ -1,5 +1,57 @@
-@media (max-width: 63em) {
+/* -------------------------------------------------------------- */
+/* Tablet media query */
+/* -------------------------------------------------------------- */
+
+@media (max-width: 70em) {
   html {
-    font-size: 10%;
+    font-size: 55%;
+  }
+
+  .header-container {
+    padding: 1rem 2rem;
+  }
+}
+
+/* -------------------------------------------------------------- */
+/* Mobile media query */
+/* -------------------------------------------------------------- */
+@media (max-width: 55em) {
+  .menu {
+    display: inline-block !important;
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+
+    padding: 1rem;
+    display: none;
+  }
+
+  .nav-bar-items {
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 2px;
+    padding: 1rem;
+  }
+
+  .nav-bar-item {
+    background-color: #eee;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 26em) {
+  .logo {
+    display: none;
+  }
+  .nav-bar-ions-container {
+    width: 100%;
   }
 }

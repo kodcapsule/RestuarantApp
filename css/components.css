@@ -66,10 +66,6 @@
   color: #fff;
 }
 
-/* .active {
-  background-color: var(--green);
-} */
-
 .nav-bar-ions-container ion-icon {
   cursor: pointer;
   text-align: center;
@@ -86,8 +82,4 @@
   color: #fff;
   background-color: var(--green);
   transform: rotate(360deg);
-}
-
-#menu {
-  display: none;
 }
