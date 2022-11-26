@@ -26,7 +26,6 @@
     left: 0;
     right: 0;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
-
     padding: 1rem;
     display: none;
   }
@@ -42,12 +41,23 @@
   .nav-bar-item {
     background-color: #eee;
     width: 100%;
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 3px;
   }
 }
 
 @media (max-width: 26em) {
+  /* .header-container {
+    position: fixed;
+    bottom: -90%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 1rem 2rem;
+    z-index: 100;
+  } */
+
   .logo {
     display: none;
   }

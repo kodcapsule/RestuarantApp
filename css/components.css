@@ -48,10 +48,9 @@
   transition: all 0.3s ease-in;
 }
 
-.nav-bar-item:hover,
-.active {
+.nav-bar-item:hover {
   background-color: var(--green);
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 3px;
   color: #fff;
 }
@@ -81,5 +80,5 @@
 .nav-bar-ions-container ion-icon:hover {
   color: #fff;
   background-color: var(--green);
-  transform: rotate(360deg);
+  transform: translateY(-8%);
 }
