@@ -151,12 +151,12 @@
 /* HOME SECTION */
 /* ************************************ */
 
-.home-section .container .slider {
+.slider {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 2rem;
-  padding-top: 9rem;
+  padding-top: 8rem;
 }
 
 .content {
@@ -184,6 +184,6 @@
 
   /* padding-top: 1rem; */
 }
-.slider-content-img {
-  width: 100%;
+.swiper-image {
+  width: 55%;
 }

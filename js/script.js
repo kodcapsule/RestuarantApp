@@ -28,3 +28,14 @@ formClose.addEventListener("click", (e) => {
   console.log(e);
   searchForm.classList.remove("active");
 });
+
+// var swiper = new Swiper(".wiper", {
+//   slidesPerView: 3,
+//   centeredSlides: true,
+//   spaceBetween: 30,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     type: "fraction",
+//   },
+//   loop: true,
+// });
