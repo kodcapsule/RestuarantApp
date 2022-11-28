@@ -28,6 +28,14 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  padding: 2rem 9%;
+}
+
+section:nth-child(even) {
+  background: #eee;
+}
+
 .hide-menu {
   display: none;
 }
@@ -38,4 +46,15 @@ body {
 
 .show-navbar {
   display: block;
+}
+
+.btn {
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--black);
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 1.5rem 6rem;
 }

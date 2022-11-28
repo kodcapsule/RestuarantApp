@@ -5,7 +5,6 @@ const navbar = document.querySelector(".nav-bar");
 
 const searchForm = document.querySelector("#search-form");
 const search = document.querySelector(".search");
-
 const formClose = document.querySelector(".form-close");
 
 // Menu bar toggle
