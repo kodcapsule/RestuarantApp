@@ -29,7 +29,7 @@ formClose.addEventListener("click", (e) => {
   searchForm.classList.remove("active");
 });
 
-// var swiper = new Swiper(".wiper", {
+// var swiper = new Swiper(".home-swiper", {
 //   slidesPerView: 3,
 //   centeredSlides: true,
 //   spaceBetween: 30,

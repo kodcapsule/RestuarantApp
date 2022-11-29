@@ -151,11 +151,15 @@
 /* HOME SECTION */
 /* ************************************ */
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 .slider {
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 4rem;
   padding-top: 8rem;
 }
 
@@ -186,4 +190,8 @@
 }
 .swiper-image {
   width: 55%;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--black);
 }
