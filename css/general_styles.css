@@ -66,9 +66,10 @@ section:nth-child(even) {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 3rem;
-  align-items: center;
-  justify-content: center;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
 }

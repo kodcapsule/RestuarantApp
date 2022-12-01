@@ -48,6 +48,10 @@
   #search-form #search-input {
     width: 40rem;
   }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
 
 @media (max-width: 26em) {
@@ -71,5 +75,9 @@
   }
   .nav-bar-ions-container {
     width: 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
