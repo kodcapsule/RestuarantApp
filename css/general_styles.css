@@ -29,7 +29,7 @@ body {
 }
 
 section {
-  padding: 2rem 10%;
+  padding: 5% 10%;
 }
 
 section:nth-child(even) {
@@ -62,4 +62,13 @@ section:nth-child(even) {
 .btn:hover {
   background: var(--green);
   letter-spacing: 0.1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
