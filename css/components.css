@@ -200,10 +200,6 @@
 /* MEALS SECTION */
 /* ************************************ */
 
-.dishes {
-  /* padding: 8rem; */
-}
-
 .sub-heading {
   font-size: 2rem;
   color: var(--green);
@@ -213,7 +209,7 @@
 }
 
 .heading {
-  font-size: 5rem;
+  font-size: 6rem;
   color: var(--black);
   text-align: center;
   text-transform: capitalize;
@@ -293,4 +289,66 @@
   font-size: 2.5rem;
   font-weight: 600;
   padding: 0 1rem;
+}
+
+/* ************************************ */
+/* ABOUT  SECTION */
+/* ************************************ */
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about .row .img {
+  flex: 1 1 45rem;
+}
+
+.about .row .img img {
+  width: 100%;
+}
+
+.content h3 {
+  font-size: 4.5rem;
+  letter-spacing: 1;
+  padding-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.8rem;
+  letter-spacing: 1.8;
+  line-height: 1.8;
+  /* text-align: center; */
+  padding-bottom: 1rem;
+  color: var(--light);
+}
+
+.icons-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.icons-container span {
+  font-size: 2rem;
+  padding: 0 0.5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+.icons ion-icon {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.icons ion-icon:hover {
+  transform: scale(1.2, 1.2);
+  /* color: var(--green); */
 }

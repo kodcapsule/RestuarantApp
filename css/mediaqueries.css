@@ -60,6 +60,10 @@
   .grid-container {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+
+  section {
+    padding: 1em !important;
+  }
 }
 
 @media (max-width: 26em) {
