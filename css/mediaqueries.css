@@ -1,7 +1,6 @@
-/* -------------------------------------------------------------- */
-/* Tablet media query */
-/* -------------------------------------------------------------- */
-
+/* ********************************************* */
+/* Large Tablets  */
+/* ********************************************* */
 @media (max-width: 70em) {
   html {
     font-size: 55%;
@@ -20,9 +19,9 @@
   }
 }
 
-/* -------------------------------------------------------------- */
-/* Mobile media query */
-/* -------------------------------------------------------------- */
+/* ********************************************* */
+/* Small Phones  */
+/* ********************************************* */
 @media (max-width: 55em) {
   .menu {
     display: inline-block !important;
@@ -66,18 +65,10 @@
   }
 }
 
+/* ********************************************* */
+/* Small Phones  */
+/* ********************************************* */
 @media (max-width: 26em) {
-  /* .header-container {
-    position: fixed;
-    bottom: -90%;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    box-shadow: var(--box-shadow);
-    padding: 1rem 2rem;
-    z-index: 100;
-  } */
-
   #search-form #search-input {
     width: 30rem;
   }
@@ -102,5 +93,24 @@
 
   .box {
     padding: 2rem 0rem;
+  }
+
+  .content h3 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .icons-container {
+    flex-direction: column;
+  }
+
+  .content a {
+    width: 100%;
+    text-align: center;
   }
 }

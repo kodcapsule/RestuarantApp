@@ -308,6 +308,10 @@
   width: 100%;
 }
 
+.about .row .img img:hover {
+  transform: scale(1.01, 1.01);
+  cursor: pointer;
+}
 .content h3 {
   font-size: 4.5rem;
   letter-spacing: 1;
@@ -330,8 +334,9 @@
 }
 
 .icons-container span {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 0 0.5rem;
+  color: var(--black);
 }
 
 .icons {
@@ -345,7 +350,7 @@
 }
 .icons ion-icon {
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--green);
 }
 
 .icons ion-icon:hover {
