@@ -382,3 +382,55 @@
 .menu-section-container .box .content p {
   font-size: 1.5rem;
 }
+
+/* ************************************ */
+/*CUSTOMER REVIEW ECTION */
+/* ************************************ */
+
+.review .slide {
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+  /* background: red; */
+}
+
+.review .slide .qout {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 6rem;
+  color: #ccc;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem;
+}
+
+.review .slide .user-info .img img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.review .slide .user-info .content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.review .slide .user-info .content h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.slide p {
+  font-size: 1.5rem;
+  color: var(--light);
+}
