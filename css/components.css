@@ -357,3 +357,28 @@
   transform: scale(1.2, 1.2);
   /* color: var(--green); */
 }
+
+/* ************************************ */
+/* MENU SECTION */
+/* ************************************ */
+
+.menu-section-container .box {
+  padding: 1rem;
+}
+.box .img img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.menu-section-container .box .content .stars-rating {
+  padding-top: 1rem;
+}
+
+.menu-section-container .box .content h3 {
+  font-size: 3rem;
+}
+.menu-section-container .box .content p {
+  font-size: 1.5rem;
+}
