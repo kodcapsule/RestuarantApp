@@ -498,3 +498,55 @@ form .btn {
   width: 30%;
   padding: 1rem 2rem;
 }
+
+/* ************************************ */
+/*CUSTOMER REVIEW ECTION */
+/* ************************************ */
+
+.footer-section footer {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section footer h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.footer-section footer a {
+  font-size: 1.8rem;
+  color: var(--light);
+}
+
+.footer-section footer a:hover {
+  text-decoration: underline;
+  color: #666;
+}
+.footer-section footer .footer-box {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.footer-box a ion-icon {
+  /* font-size: 2.5rem; */
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #eee;
+  color: var(--black);
+  text-align: center;
+}
+
+.footer-box a ion-icon:hover {
+  background: var(--green);
+  color: #fff;
+  transform: scale(1.1);
+}
