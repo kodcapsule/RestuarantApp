@@ -490,7 +490,6 @@ textarea {
 
 .input-contaner input:focus {
   border: 1px solid green;
-  /* background-color: lightblue; */
 }
 
 form .btn {
@@ -502,14 +501,6 @@ form .btn {
 /* ************************************ */
 /*CUSTOMER REVIEW ECTION */
 /* ************************************ */
-
-.footer-section footer {
-  display: flex;
-  width: 100%;
-
-  justify-content: space-between;
-  align-items: center;
-}
 
 .footer-section footer h3 {
   font-size: 2rem;
@@ -523,7 +514,8 @@ form .btn {
 
 .footer-section footer a:hover {
   text-decoration: underline;
-  color: #666;
+  color: var(--black);
+  transform: scale(1.05);
 }
 .footer-section footer .footer-box {
   display: flex;
@@ -548,5 +540,27 @@ form .btn {
 .footer-box a ion-icon:hover {
   background: var(--green);
   color: #fff;
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.credit {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--black);
+  margin-top: 4rem;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.credit .codedBy {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.credit .codedBy:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+  color: var(--black);
 }

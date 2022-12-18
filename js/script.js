@@ -13,6 +13,8 @@ const navbar = document.querySelector(".nav-bar");
 const searchForm = document.querySelector("#search-form");
 const search = document.querySelector(".search");
 const formClose = document.querySelector(".form-close");
+const date = (document.getElementById("year").innerHTML =
+  new Date().getFullYear());
 
 // Menu bar toggle
 menu.addEventListener("click", (e) => {
