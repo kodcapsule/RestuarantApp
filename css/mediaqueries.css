@@ -113,4 +113,13 @@
     width: 100%;
     text-align: center;
   }
+
+  .oder-section-container form {
+    flex-direction: column;
+  }
+
+  .oder-container,
+  .address-container {
+    width: 100%;
+  }
 }
