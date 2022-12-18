@@ -434,3 +434,67 @@
   font-size: 1.5rem;
   color: var(--light);
 }
+
+/* ************************************ */
+/*CUSTOMER REVIEW ECTION */
+/* ************************************ */
+
+.oder-section-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.oder-section-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100rem;
+  gap: 1rem;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.oder-container,
+.address-container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.oder-container label,
+.address-container label {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.input-contaner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-contaner input,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  background: #eee;
+  border-radius: 3px;
+  color: var(--light);
+}
+
+.input-contaner input:focus {
+  border: 1px solid green;
+  /* background-color: lightblue; */
+}
+
+form .btn {
+  align-self: flex-start;
+  width: 30%;
+  padding: 1rem 2rem;
+}
